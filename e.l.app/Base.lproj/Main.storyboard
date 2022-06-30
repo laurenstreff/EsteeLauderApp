@@ -282,7 +282,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="tUz-UI-afG">
-                                                <rect key="frame" x="29" y="654" width="366" height="290"/>
+                                                <rect key="frame" x="29" y="656" width="366" height="288"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWj-Yr-UMN">
@@ -516,10 +516,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ja0-5j-7pS"/>
+        <segue reference="BOl-Ky-Gcr"/>
         <segue reference="kdk-Nl-GMz"/>
-        <segue reference="vFa-Xk-QC7"/>
-        <segue reference="Fco-i7-Cqn"/>
+        <segue reference="NJb-70-qUY"/>
+        <segue reference="X62-sT-hzg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="3000" height="3000"/>
