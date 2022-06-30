@@ -14,19 +14,40 @@ class QuizViewController: UIViewController {
         super.viewDidLoad()
 
         
+        
+        
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var quizTextField: UITextField!
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func TLButton(_ sender: Any) {quizTextField.text = "Combo queen✌️!"
     }
-    */
-
+    
+    @IBAction func TRButton(_ sender: Any) {quizTextField.text = "Techy and modern📱!"
+    }
+    
+    @IBAction func BLButton(_ sender: Any) {quizTextField.text = "Scientific smartypants!🔬"
+    }
+    
+    @IBAction func BRButton(_ sender: Any) {quizTextField.text = "Boujee boss💰!"
+    }
+    
 }
+
+
+//
+//@IBOutlet weak var sportField: UITextField!
+//
+//@IBAction func sportButton1(_ sender: UIButton) {
+//    sportField.text = "🏀"
+//}
+//
+//
+//@IBAction func sportButton2(_ sender: UIButton) {
+//    sportField.text = "🏈"
+//}
+//
+//@IBAction func sportButton3(_ sender: UIButton) {
+//    sportField.text = "⚽️"
+//}

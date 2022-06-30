@@ -94,6 +94,9 @@
                                         <color key="backgroundColor" red="0.86695522069999997" green="1" blue="0.73797589539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="TLButton:" destination="BjA-vb-yfH" eventType="touchUpInside" id="XEI-5H-Abk"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="KAq-l1-CR6">
                                 <rect key="frame" x="20" y="158" width="174" height="251"/>
@@ -108,6 +111,9 @@
                                         <color key="backgroundColor" red="0.86695522069999997" green="1" blue="0.73797589539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="TRButton:" destination="BjA-vb-yfH" eventType="touchUpInside" id="cmZ-8E-xnl"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="TPQ-p4-bpv">
                                 <rect key="frame" x="219" y="192" width="175" height="184"/>
@@ -122,6 +128,9 @@
                                         <color key="backgroundColor" red="0.86695522069999997" green="1" blue="0.73797589539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="BLButton:" destination="BjA-vb-yfH" eventType="touchUpInside" id="ye5-H4-9ny"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="SLm-Nx-u7a">
                                 <rect key="frame" x="20" y="450" width="174" height="200"/>
@@ -136,6 +145,9 @@
                                         <color key="backgroundColor" red="0.86695522069999997" green="1" blue="0.73797589539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="BRButton:" destination="BjA-vb-yfH" eventType="touchUpInside" id="O2q-yG-Tfh"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="AzO-75-e74">
                                 <rect key="frame" x="219" y="459" width="175" height="182"/>
@@ -180,6 +192,9 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="gPf-P1-iBS"/>
+                    <connections>
+                        <outlet property="quizTextField" destination="KYy-Us-YQc" id="IJh-jh-SCx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="POx-rr-Ran" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -330,8 +345,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ja0-5j-7pS"/>
-        <segue reference="frw-zx-wXo"/>
+        <segue reference="fd0-7A-LW4"/>
+        <segue reference="vFa-Xk-QC7"/>
         <segue reference="Fco-i7-Cqn"/>
     </inferredMetricsTieBreakers>
     <resources>
