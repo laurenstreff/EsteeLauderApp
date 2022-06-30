@@ -233,14 +233,14 @@
         <scene sceneID="N9O-5Z-9C1">
             <objects>
                 <viewController id="N8u-Nb-8P7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XSD-ez-f9B">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="XSD-ez-f9B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2AN-mf-Q8I">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2AN-mf-Q8I">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HDE-js-PV9">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDE-js-PV9">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egH-Pt-2ll">
@@ -394,7 +394,7 @@
                                                 <rect key="frame" x="16" y="1295" width="118" height="63"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="⬅️Back" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="⬅️Start" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="32"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" red="0.56866377589999995" green="0.77708250280000002" blue="0.53517740960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -517,9 +517,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="BOl-Ky-Gcr"/>
-        <segue reference="kdk-Nl-GMz"/>
-        <segue reference="NJb-70-qUY"/>
-        <segue reference="X62-sT-hzg"/>
+        <segue reference="7He-aG-bOx"/>
+        <segue reference="frw-zx-wXo"/>
+        <segue reference="rBp-am-Jq0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="3000" height="3000"/>
