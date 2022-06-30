@@ -473,6 +473,7 @@
                                         <color key="backgroundColor" red="0.99368482830000004" green="0.76810723540000003" blue="0.76707905529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1400" id="1ZN-gj-W4T"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1395" id="B3Z-wJ-obg"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1300" id="Mcf-U7-IRH"/>
                                         </constraints>
                                     </view>
@@ -484,9 +485,13 @@
                                     <constraint firstItem="3iE-me-XTY" firstAttribute="leading" secondItem="KOF-gM-xgD" secondAttribute="leading" id="MxX-uR-JVO"/>
                                     <constraint firstAttribute="bottom" secondItem="3iE-me-XTY" secondAttribute="bottom" id="YD4-A6-VNM"/>
                                     <constraint firstAttribute="trailing" secondItem="3iE-me-XTY" secondAttribute="trailing" id="din-cN-Shb"/>
+                                    <constraint firstItem="3iE-me-XTY" firstAttribute="top" secondItem="KOF-gM-xgD" secondAttribute="top" id="eGc-ev-raD"/>
+                                    <constraint firstItem="3iE-me-XTY" firstAttribute="leading" secondItem="KOF-gM-xgD" secondAttribute="leading" id="etv-yd-eeH"/>
+                                    <constraint firstAttribute="trailing" secondItem="3iE-me-XTY" secondAttribute="trailing" id="fay-AD-boB"/>
                                     <constraint firstItem="3iE-me-XTY" firstAttribute="centerX" secondItem="KOF-gM-xgD" secondAttribute="centerX" id="hBO-Y3-oFJ"/>
                                     <constraint firstItem="3iE-me-XTY" firstAttribute="top" secondItem="KOF-gM-xgD" secondAttribute="top" id="ihK-Ef-Qnt"/>
                                     <constraint firstItem="3iE-me-XTY" firstAttribute="leading" secondItem="KOF-gM-xgD" secondAttribute="leading" id="iq3-PO-OmK"/>
+                                    <constraint firstAttribute="bottom" secondItem="3iE-me-XTY" secondAttribute="bottom" id="xKy-ic-fD4"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -516,10 +521,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BOl-Ky-Gcr"/>
-        <segue reference="7He-aG-bOx"/>
-        <segue reference="frw-zx-wXo"/>
-        <segue reference="rBp-am-Jq0"/>
+        <segue reference="fd0-7A-LW4"/>
+        <segue reference="snY-9q-81p"/>
+        <segue reference="vFa-Xk-QC7"/>
+        <segue reference="X62-sT-hzg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="3000" height="3000"/>
